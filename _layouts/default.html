@@ -77,24 +77,12 @@
             <p>{{ site.data.main_info.title }}</p>
             <p>{{ site.data.main_info.email }}</p>
             <p>
-              <span onclick="window.open('{{ site.data.main_info.bsky }}')" style="cursor: pointer">
-                <i class="fa-brands fa-bluesky" style="padding-top: 10px"></i>
-              </span>
-
-              <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
-                <i class="fa-brands fa-twitter fa-lg"></i>
-              </span>
-
               <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
                 <i class="fa-brands fa-linkedin fa-lg"></i>
               </span>
 
               <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
                 <i class="fa-brands fa-github fa-lg"></i>
-              </span>
-
-              <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
-                <i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i>
               </span>
             </p>
         </div>
@@ -106,9 +94,8 @@
       <div class="container">
         <ul class="navbar-list">
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#bio" | prepend: site.baseurl }}>Bio</a></li>
-          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#prospective-students" | prepend: site.baseurl }}>Prospective Students</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#publications" | prepend: site.baseurl }}>Publications</a></li>
-          <!--<li class="navbar-item"><a class="navbar-link" href={{ "/index.html#projects" | prepend: site.baseurl }}>Projects</a></li>-->
+          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#projects" | prepend: site.baseurl }}>Projects</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#resume" | prepend: site.baseurl }}>Vita</a></li>
         </ul>
       </div>
@@ -125,24 +112,12 @@
           {{ site.data.main_info.email }}
         </div>
         <div class="four columns">
-          <span onclick="window.open('{{ site.data.main_info.bsky }}')" style="cursor: pointer">
-            <i class="fa-brands fa-bluesky fa-sm" style="padding-top: 10px"></i>
-          </span>
-
-          <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
-            <i class="fa-brands fa-twitter"></i>
-          </span>
-
           <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
             <i class="fa-brands fa-linkedin"></i>
           </span>
 
           <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
             <i class="fa-brands fa-github"></i>
-          </span>
-
-          <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
-            <i class="ai ai-google-scholar" aria-hidden="true"></i>
           </span>
         </div>
       </div>
