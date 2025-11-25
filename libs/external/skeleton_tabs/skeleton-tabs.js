@@ -1,21 +1,27 @@
 
 $(function() {
-    $('ul.tab-nav li .button').click(function() {
+    var $tabButtons = $('ul.tab-nav li .button');
+
+    function showTab(href) {
+        var $container = $(href).parent();
+        $('.tab-pane', $container).removeClass('active').hide();
+        $(href).addClass('active').show();
+    }
+
+    $tabButtons.each(function() {
+        var href = $(this).attr('data-ref');
+        if ($(this).hasClass('active')) {
+            showTab(href);
+        }
+    });
+
+    $tabButtons.click(function() {
         var href = $(this).attr('data-ref');
 
-        $('li .active.button', $(this).parent().parent()).removeClass('active');
+        $('li .active.button', $(this).closest('ul.tab-nav')).removeClass('active');
         $(this).addClass('active');
 
-        $('.tab-pane.active', $(href).parent()).removeClass('active');
-        $(href).addClass('active');
-
-        /*
-        var toScroll = $(this).parent().parent().parent().parent();
-
-        $('html, body').animate({
-    		scrollTop: toScroll.offset().top
-		}, 1000);
-		*/
+        showTab(href);
 
         return false;
     });

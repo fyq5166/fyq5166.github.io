@@ -1,54 +1,42 @@
 projects:
-  - title: "Detecting Network Effects"
-    subtitle: "Randomizing Over Randomized Experiments"
-    thumbnail: "assets/projects/2016_network-ab/thumbnail.jpg"
-    url: "projects/2016_network-ab-testing.html"
+  - title: "TABULA-R²: A Reproducible Tabular Reasoning Benchmark for Local LLMs"
+    subtitle: "End-to-end PLAN/END benchmark for multi-table reasoning"
+    thumbnail: "assets/projects/tabula-r2/thumbnail.png"
+    url: "projects/tabula-r2.html"
     selected: y
 
-  - title: "Human Atlas"
-    subtitle: "Tool for Mapping Social Networks"
-    thumbnail: "assets/projects/2016_human-atlas/thumbnail.png"
-    url: "projects/2016_human-atlas.html"
+  - title: "Interactive Website Modeling and Trajectory Generation"
+    subtitle: "Executable web-world builder for agent training"
+    thumbnail: "assets/projects/interactive-web-trajectories/thumbnail.png"
+    url: "projects/interactive-web-trajectories.html"
     selected: y
 
-  - title: "Responsive Communities"
-    subtitle: "Pilot project in Jun, Spain"
-    thumbnail: "assets/projects/2015_jun/thumbnail.png"
-    url: "projects/2015_jun.html"
+  - title: "Spider2-V: Multimodal Data-Science Web Agent Evaluation Platform"
+    subtitle: "NeurIPS Spotlight benchmark for GUI-heavy workflows"
+    thumbnail: "assets/projects/spider2-v/thumbnail.png"
+    url: "projects/spider2-v.html"
     selected: y
 
-  - title: "Cold-Start Recommendations"
-    subtitle: "Learning Local Collective Embeddings"
-    thumbnail: "assets/projects/2014_item-cold-start/thumbnail.jpg"
-    url: "projects/2014_item-cold-start.html"
+  - title: "Automated Oncall Assistant for SRE Teams"
+    subtitle: "LLM-powered incident co-pilot for Volcano Engine"
+    thumbnail: "assets/projects/oncall-assistant/thumbnail.png"
+    url: "projects/oncall-assistant.html"
+    selected: y
+
+  - title: "Arkitect Cookbook: Dual-Track Onboarding for Tool-Using Agents"
+    subtitle: "Human-friendly + agent-friendly templates for Arkitect"
+    thumbnail: "assets/projects/arkitect-cookbook/thumbnail.png"
+    url: "projects/arkitect-cookbook.html"
     selected: n
 
-  - title: "Semi-supervised Learning"
-    subtitle: "Iterative Hybrid Algorithm"
-    thumbnail: "assets/projects/2013_iterative-hybrid-algorithm/thumbnail.jpg"
-    url: "projects/2013_iterative-hybrid-algorithm.html"
+  - title: "Agent Tool Calling Ability Evaluation Framework"
+    subtitle: "Making Arkitect agents measurable via modular tests"
+    thumbnail: "assets/projects/arkitect-tool-eval/thumbnail.png"
+    url: "projects/arkitect-tool-eval.html"
     selected: n
 
-  - title: "Twitter Sentiment Analysis"
-    subtitle: "Analyzing Financial Tweets"
-    thumbnail: "assets/projects/2011_twitter-sentiment-analysis/thumbnail.png"
-    url: "projects/2011_twitter-sentiment-analysis.html"
-    selected: n
-
-  - title: "Wordnet Construction"
-    subtitle: "Automatic Wordnet Construction using Language Models"
-    thumbnail: "assets/projects/2010_wordnet-construction/thumbnail.jpg"
-    url: "projects/2010_wordnet-contruction.html"
-    selected: n
-
-  - title: "Fingerprint Verification"
-    subtitle: "Image processing class project"
-    thumbnail: "assets/projects/2010_fingerprint-verification/thumbnail.png"
-    url: "projects/2010_fingerprint-verification.html"
-    selected: n
-
-  - title: "Connect Four AI Agent"
-    subtitle: "Iterative deepening and alpha-beta pruning"
-    thumbnail: "assets/projects/2009_connect-four/thumbnail.png"
-    url: "projects/2009_connect-four.html"
+  - title: "ParaMind: Collaborative Large Language Model Inference Platform"
+    subtitle: "Peer-to-peer distributed inference for consumer GPUs"
+    thumbnail: "assets/projects/paramind/thumbnail.png"
+    url: "projects/paramind.html"
     selected: n

@@ -24,45 +24,50 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/libs/external/skeleton/normalize.css" | prepend: site.baseurl>
-  <link rel="stylesheet" href="{{ site.baseurl }}/libs/external/skeleton/skeleton.css" | prepend: site.baseurl>
-  <link rel="stylesheet" href="{{ site.baseurl }}/libs/custom/my_css.css" | prepend: site.baseurl>
+  <link rel="stylesheet" href="{{ '/libs/external/skeleton/normalize.css' | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ '/libs/external/skeleton/skeleton.css' | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ '/libs/custom/my_css.css' | prepend: site.baseurl }}">
+  <style>
+    /* Fallback in case skeleton tabs CSS fails to load */
+    .tab-content .tab-pane { display: none; }
+    .tab-content .tab-pane.active { display: block; }
+  </style>
 
   <!-- JQuery
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src="{{ site.baseurl }}/libs/external/jquery-3.1.1.min.js" | prepend: site.baseurl></script>
+  <script src="{{ '/libs/external/jquery-3.1.1.min.js' | prepend: site.baseurl }}"></script>
 
   <!-- Font-Awesome
   –––––––––––––––––––––––––––––––––––––––––––––––––– 
   <link rel="stylesheet" href="{{ site.baseurl }}/libs/external/font-awesome-4.7.0/css/font-awesome.min.css" | prepend: site.baseurl> -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/libs/external/fontawesome-free-6.6.0-web/css/all.min.css" | prepend: site.baseurl>
+  <link rel="stylesheet" href="{{ '/libs/external/fontawesome-free-6.6.0-web/css/all.min.css' | prepend: site.baseurl }}">
 
   <!-- Academicons
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/libs/external/academicons-1.8.6/css/academicons.min.css" | prepend: site.baseurl>
+  <link rel="stylesheet" href="{{ '/libs/external/academicons-1.8.6/css/academicons.min.css' | prepend: site.baseurl }}">
 
   <!-- Skeleton tabs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/libs/external/skeleton_tabs/skeleton-tabs.css" | prepend: site.baseurl>
-  <script src="{{ site.baseurl }}/libs/external/skeleton_tabs/skeleton-tabs.js" | prepend: site.baseurl></script>
+  <link rel="stylesheet" href="{{ '/libs/external/skeleton_tabs/skeleton-tabs.css' | prepend: site.baseurl }}">
+  <script src="{{ '/libs/external/skeleton_tabs/skeleton-tabs.js' | prepend: site.baseurl }}"></script>
 
   <!-- Timeline
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/libs/external/timeline.css" | prepend: site.baseurl>
+  <link rel="stylesheet" href="{{ '/libs/external/timeline.css' | prepend: site.baseurl }}">
 
   <!-- Scripts
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <!--<link rel="stylesheet" href="{{ site.baseurl }}/libs/external/github-prettify-theme.css" | prepend: site.baseurl>-->
-  <script src="{{ site.baseurl }}/libs/custom/my_js.js" | prepend: site.baseurl></script>
+  <script src="{{ '/libs/custom/my_js.js' | prepend: site.baseurl }}"></script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="{{ site.baseurl }}/libs/icon/favicon-96x96.png" sizes="96x96" />
-  <link rel="icon" type="image/svg+xml" href="{{ site.baseurl }}/libs/icon/favicon.svg" />
-  <link rel="shortcut icon" href="{{ site.baseurl }}/libs/icon/favicon.ico" />
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/libs/icon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" href="{{ '/libs/icon/favicon-96x96.png' | prepend: site.baseurl }}" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="{{ '/libs/icon/favicon.svg' | prepend: site.baseurl }}" />
+  <link rel="shortcut icon" href="{{ '/libs/icon/favicon.ico' | prepend: site.baseurl }}" />
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/libs/icon/apple-touch-icon.png' | prepend: site.baseurl }}" />
   <meta name="apple-mobile-web-app-title" content="Yeqiao Fu" />
-  <link rel="manifest" href="{{ site.baseurl }}/libs/icon/site.webmanifest" />
+  <link rel="manifest" href="{{ '/libs/icon/site.webmanifest' | prepend: site.baseurl }}" />
 
 </head>
 <body>
@@ -98,7 +103,6 @@
       <div class="container">
         <ul class="navbar-list">
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#bio" | prepend: site.baseurl }}>Bio</a></li>
-          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#publications" | prepend: site.baseurl }}>Publications</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#projects" | prepend: site.baseurl }}>Projects</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#resume" | prepend: site.baseurl }}>Vita</a></li>
         </ul>
