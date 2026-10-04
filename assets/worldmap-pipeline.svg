@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 390" role="img" aria-labelledby="title desc">
+<title id="title">WorldMap: reusable interaction graphs and trajectory generation</title><desc id="desc">DOM elements are cleaned and explored to build a reusable interaction graph. Segmented graph views guide annotated trajectory generation; outputs are deduplicated and assessed as candidate training data.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0 0L8 3L0 6" fill="none" stroke="#315c45" stroke-width="1.2"/></marker></defs>
+<style>text{font-family:"Avenir Next",Avenir,sans-serif;fill:#22332b} .label{font-size:20px;font-weight:500}.sub{font-size:15px;fill:#5e6a62}.eyebrow{font-size:13px;letter-spacing:1px;fill:#315c45}.arrow{fill:none;stroke:#315c45;stroke-width:1.5;marker-end:url(#arrow)}</style>
+<rect width="640" height="390" fill="#edf1e7"/>
+<text x="20" y="27" class="eyebrow" text-anchor="start">BUILD ONCE IN THE TEST ENVIRONMENT</text>
+<rect x="20" y="52" width="176" height="76" rx="3" fill="#fdfcf8" stroke="#bccbb4"/>
+<text x="108.0" y="83" class="label" text-anchor="middle">Raw DOM</text>
+<text x="108.0" y="108" class="sub" text-anchor="middle">XPath-indexed elements</text>
+<rect x="232" y="52" width="176" height="76" rx="3" fill="#fdfcf8" stroke="#bccbb4"/>
+<text x="320.0" y="83" class="label" text-anchor="middle">Explore actions</text>
+<text x="320.0" y="108" class="sub" text-anchor="middle">Clean + merge elements</text>
+<rect x="444" y="52" width="176" height="76" rx="3" fill="#e4ebdc" stroke="#bccbb4"/>
+<text x="532.0" y="83" class="label" text-anchor="middle">Interaction graph</text>
+<text x="532.0" y="108" class="sub" text-anchor="middle">States + navigation</text>
+<path class="arrow" d="M197 90H229"/>
+<path class="arrow" d="M409 90H441"/>
+<path class="arrow" d="M532 129V176H108V213"/>
+<text x="302" y="166" class="sub" text-anchor="middle">Reuse the graph across generation runs</text>
+<rect x="20" y="215" width="176" height="76" rx="3" fill="#fdfcf8" stroke="#bccbb4"/>
+<text x="108.0" y="246" class="label" text-anchor="middle">Segmented view</text>
+<text x="108.0" y="271" class="sub" text-anchor="middle">Configurable horizon</text>
+<rect x="232" y="215" width="176" height="76" rx="3" fill="#fdfcf8" stroke="#bccbb4"/>
+<text x="320.0" y="246" class="label" text-anchor="middle">Generate paths</text>
+<text x="320.0" y="271" class="sub" text-anchor="middle">Actions + intentions</text>
+<rect x="444" y="215" width="176" height="76" rx="3" fill="#fdfcf8" stroke="#bccbb4"/>
+<text x="532.0" y="246" class="label" text-anchor="middle">Candidate data</text>
+<text x="532.0" y="271" class="sub" text-anchor="middle">Deduplicate + assess</text>
+<path class="arrow" d="M197 253H229"/>
+<path class="arrow" d="M409 253H441"/>
+<path class="arrow" d="M318 292V331H108V295"/>
+<text x="213" y="353" class="sub" text-anchor="middle">Continue from the selected endpoint</text>
+<text x="20" y="381" class="sub" text-anchor="start">Candidate training trajectories; downstream training gains not established.</text>
+</svg>
