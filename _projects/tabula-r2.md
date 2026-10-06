@@ -4,7 +4,7 @@ title: "TABULA-R²: A Reproducible Tabular Reasoning Benchmark for Local LLMs"
 subtitle: "Independent research with Prof. Philipp Koehn (Johns Hopkins University)"
 ---
 
-**Time.** 2025  
+**Time.** Aug 2025 – Nov 2025<br>
 **Affiliation.** Johns Hopkins University (remote) + The University of Hong Kong  
 **Role.** Independent researcher; end-to-end designer & sole implementer  
 

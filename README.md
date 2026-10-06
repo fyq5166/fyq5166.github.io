@@ -9,6 +9,7 @@
 | 位置 | 用途 |
 | --- | --- |
 | `index.html` | 主页内容、样式、交互。保留顶部 `layout: null` 的 Jekyll front matter |
+| `assets/reports/` | 对外公开的项目报告与摘要；更新前检查私人信息、链接与版本 |
 | `assets/*.svg` | 项目说明图：统一视觉语言，不用图号 |
 | `assets/profile-pics/yeqiao-fu.png` | 头像，避免嵌入大段 base64 |
 | `research-resume.pdf` | 主页简历入口 |
