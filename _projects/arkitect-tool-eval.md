@@ -4,7 +4,7 @@ title: "Agent Tool Calling Ability Evaluation Framework"
 subtitle: "Independent prototype on top of Arkitect (Volcengine Ark Group)"
 ---
 
-**Time.** Summer 2025  
+**Time.** Jun 2025 – Aug 2025<br>
 **Affiliation.** ByteDance Volcengine Ark Group  
 **Role.** Agent Systems Intern; sole designer & implementer of the prototype  
 

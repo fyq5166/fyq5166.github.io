@@ -4,7 +4,7 @@ title: "Automated Oncall Assistant for SRE Teams"
 subtitle: "Agent Systems Intern – primary prototype developer, Volcano Engine Ark Group"
 ---
 
-**Time.** Summer 2025  
+**Time.** Jun 2025 – Aug 2025<br>
 **Affiliation.** ByteDance Volcengine Ark Group – SRE Intelligence  
 **Role.** Primary prototype developer & system architect  
 

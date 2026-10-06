@@ -4,7 +4,7 @@ title: "Arkitect Cookbook: Dual-Track Onboarding for Tool-Using Agents"
 subtitle: "Sole author – merged into volcengine/ai-app-lab"
 ---
 
-**Time.** Summer 2025  
+**Time.** Jun 2025 – Aug 2025<br>
 **Affiliation.** ByteDance Volcengine Ark Group – Arkitect SDK  
 **Role.** Agent systems intern (cookbook owner)  
 
