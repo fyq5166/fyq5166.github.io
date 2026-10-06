@@ -1,23 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 390" role="img" aria-labelledby="title desc">
-<title id="title">ParaMind: demonstrated runtime and separate desktop prototype</title><desc id="desc">Two nodes exchange intermediate hidden states in a sequential inference path. The desktop prototype is a separate output, not connected to this P2P runtime. Simplified architecture, not an exact layer allocation.</desc>
-<defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0 0L8 3L0 6" fill="none" stroke="#315c45" stroke-width="1.2"/></marker></defs>
+<title id="title">ParaMind: one model running on two computers</title><desc id="desc">Computer A runs the first part of the model and passes its results to computer B. The desktop app is a separate, single-computer prototype.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0 0L8 3L0 6" fill="none" stroke="#315c45" stroke-width="1.2" /></marker></defs>
 <style>text{font-family:"Avenir Next",Avenir,sans-serif;fill:#22332b} .label{font-size:20px;font-weight:500}.sub{font-size:15px;fill:#5e6a62}.eyebrow{font-size:13px;letter-spacing:1px;fill:#315c45}.arrow{fill:none;stroke:#315c45;stroke-width:1.5;marker-end:url(#arrow)}</style>
-<rect width="640" height="390" fill="#edf1e7"/>
-<text x="20" y="27" class="eyebrow" text-anchor="start">DISTRIBUTED RUNTIME · TWO-NODE DEMONSTRATION</text>
-<rect x="24" y="69" width="239" height="76" rx="3" fill="#e4ebdc" stroke="#bccbb4"/>
-<text x="143.5" y="100" class="label" text-anchor="middle">Node A</text>
-<text x="143.5" y="125" class="sub" text-anchor="middle">Embedding + early layers</text>
-<rect x="377" y="69" width="239" height="76" rx="3" fill="#e4ebdc" stroke="#bccbb4"/>
-<text x="496.5" y="100" class="label" text-anchor="middle">Node B</text>
-<text x="496.5" y="125" class="sub" text-anchor="middle">Later layers + output</text>
-<path class="arrow" d="M264 107H374"/>
-<text x="320" y="88" class="sub" text-anchor="middle">Hidden states</text>
-<path class="arrow" d="M494 146V202H145V148"/>
-<text x="320" y="190" class="sub" text-anchor="middle">Next-token input after output selection</text>
-<text x="24" y="237" class="sub" text-anchor="start">Inference and integration: my work</text>
-<text x="24" y="262" class="sub" text-anchor="start">P2P transport: developed by my project partner</text>
-<path d="M20 285H620" stroke="#bccbb4" stroke-dasharray="5 5"/>
-<rect x="24" y="306" width="592" height="72" rx="3" fill="#fdfcf8" stroke="#bccbb4"/>
+<rect width="640" height="390" fill="#edf1e7" />
+<text x="20" y="27" class="eyebrow" text-anchor="start">ONE MODEL · TWO COMPUTERS</text>
+<rect x="24" y="69" width="239" height="76" rx="3" fill="#e4ebdc" stroke="#bccbb4" />
+<text x="143.5" y="100" class="label" text-anchor="middle">Computer A</text>
+<text x="143.5" y="125" class="sub" text-anchor="middle">First part of the model</text>
+<rect x="377" y="69" width="239" height="76" rx="3" fill="#e4ebdc" stroke="#bccbb4" />
+<text x="496.5" y="100" class="label" text-anchor="middle">Computer B</text>
+<text x="496.5" y="125" class="sub" text-anchor="middle">Remaining part + output</text>
+<path class="arrow" d="M264 107H374" />
+<text x="320" y="88" class="sub" text-anchor="middle">Results</text>
+<path class="arrow" d="M494 146V202H145V148" />
+<text x="320" y="190" class="sub" text-anchor="middle">Repeat to generate the next piece of text</text>
+<text x="24" y="237" class="sub" text-anchor="start">Model execution and integration: my work</text>
+<text x="24" y="262" class="sub" text-anchor="start">Networking: developed by my project partner</text>
+<path d="M20 285H620" stroke="#bccbb4" stroke-dasharray="5 5" />
+<rect x="24" y="306" width="592" height="72" rx="3" fill="#fdfcf8" stroke="#bccbb4" />
 <text x="320.0" y="337" class="label" text-anchor="middle">Separate desktop prototype</text>
-<text x="320.0" y="362" class="sub" text-anchor="middle">Electron + FastAPI · local generation only</text>
+<text x="320.0" y="362" class="sub" text-anchor="middle">Runs on one computer · not connected to the system above</text>
 </svg>

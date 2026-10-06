@@ -1,23 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 390" role="img" aria-labelledby="title desc">
-<title id="title">Spider2-V: executable task evaluation</title><desc id="desc">Instructions and initial state precede agent execution and outcome-specific success checks. A task-log example separates meaningful completion evidence from variable timestamps.</desc>
-<defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0 0L8 3L0 6" fill="none" stroke="#315c45" stroke-width="1.2"/></marker></defs>
+<title id="title">Spider2-V: testing whether AI completes software tasks</title><desc id="desc">Prepare task instructions and the starting software environment, let the AI try the task, and check whether it finished correctly. Ignore incidental differences such as timestamps.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0 0L8 3L0 6" fill="none" stroke="#315c45" stroke-width="1.2" /></marker></defs>
 <style>text{font-family:"Avenir Next",Avenir,sans-serif;fill:#22332b} .label{font-size:20px;font-weight:500}.sub{font-size:15px;fill:#5e6a62}.eyebrow{font-size:13px;letter-spacing:1px;fill:#315c45}.arrow{fill:none;stroke:#315c45;stroke-width:1.5;marker-end:url(#arrow)}</style>
-<rect width="640" height="390" fill="#edf1e7"/>
-<text x="20" y="27" class="eyebrow" text-anchor="start">FROM A TASK DESCRIPTION TO AN EXECUTABLE EVALUATION</text>
-<rect x="20" y="69" width="176" height="76" rx="3" fill="#fdfcf8" stroke="#bccbb4"/>
+<rect width="640" height="390" fill="#edf1e7" />
+<text x="20" y="27" class="eyebrow" text-anchor="start">FROM A TASK TO A CHECKABLE RESULT</text>
+<rect x="20" y="69" width="176" height="76" rx="3" fill="#fdfcf8" stroke="#bccbb4" />
 <text x="108.0" y="100" class="label" text-anchor="middle">Prepare</text>
 <text x="108.0" y="125" class="sub" text-anchor="middle">Instructions + setup</text>
-<rect x="232" y="69" width="176" height="76" rx="3" fill="#fdfcf8" stroke="#bccbb4"/>
+<rect x="232" y="69" width="176" height="76" rx="3" fill="#fdfcf8" stroke="#bccbb4" />
 <text x="320.0" y="100" class="label" text-anchor="middle">Run</text>
-<text x="320.0" y="125" class="sub" text-anchor="middle">Agent interaction</text>
-<rect x="444" y="69" width="176" height="76" rx="3" fill="#e4ebdc" stroke="#bccbb4"/>
+<text x="320.0" y="125" class="sub" text-anchor="middle">AI attempts the task</text>
+<rect x="444" y="69" width="176" height="76" rx="3" fill="#e4ebdc" stroke="#bccbb4" />
 <text x="532.0" y="100" class="label" text-anchor="middle">Check</text>
-<text x="532.0" y="125" class="sub" text-anchor="middle">Requested outcome</text>
-<path class="arrow" d="M197 107H229"/>
-<path class="arrow" d="M409 107H441"/>
-<rect x="20" y="184" width="600" height="141" fill="#fdfcf8" stroke="#bccbb4"/>
-<text x="43" y="219" class="label" text-anchor="start">Example: checking task logs</text>
+<text x="532.0" y="125" class="sub" text-anchor="middle">Did the task succeed?</text>
+<path class="arrow" d="M197 107H229" />
+<path class="arrow" d="M409 107H441" />
+<rect x="20" y="184" width="600" height="141" fill="#fdfcf8" stroke="#bccbb4" />
+<text x="43" y="219" class="label" text-anchor="start">Example: checking a task’s log</text>
 <text x="43" y="252" class="sub" text-anchor="start">Look for evidence of the requested completion.</text>
-<text x="43" y="281" class="sub" text-anchor="start">Do not require identical timestamps or byte-for-byte text.</text>
-<text x="20" y="364" class="sub" text-anchor="start">My scope: task construction, Snowflake validation, selected ablations.</text>
+<text x="43" y="281" class="sub" text-anchor="start">Ignore changing details, such as timestamps.</text>
+<text x="20" y="364" class="sub" text-anchor="start">My work: building tasks, checking workflows, and running selected tests.</text>
 </svg>

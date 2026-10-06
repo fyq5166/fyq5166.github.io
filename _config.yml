@@ -2,7 +2,17 @@ source:      .
 destination: ./_site
 includes:    ./_includes
 baseurl: ""
+url: "https://fyq5166.github.io"
 
 collections:
   projects:
     output: true
+
+# Local maintenance files are not public site assets.
+exclude:
+  - README.md
+  - AGENTS.md
+  - scripts
+  - tests
+  - Gemfile
+  - Gemfile.lock
